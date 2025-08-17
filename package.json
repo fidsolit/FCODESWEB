@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "dotenv": "^17.2.1",
-    "js-cookie": "^3.0.5"
+    "js-cookie": "^3.0.5",
+    "react-toastify": "^11.0.5"
   },
   "devDependencies": {
     "@types/js-cookie": "^3.0.6"
