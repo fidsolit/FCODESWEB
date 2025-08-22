@@ -8,7 +8,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { FaCartArrowDown } from "react-icons/fa";
 import { CiDeliveryTruck } from "react-icons/ci";
 import { MdFavorite } from "react-icons/md";
-import { setUserData } from "@/utils/UserDataSlice";
+import { setUserData } from "../utils/UserDataSlice";
+// import { setUserData } from "/utils/UserDataSlice";
 import { RootState } from "@/Store/store";
 import { get_all_products } from "../Services/Admin/product";
 import useSWR from "swr";
@@ -18,7 +19,7 @@ import {
   setOrderData,
   setProdLoading,
   setProductData,
-} from "@/utils/AdminSlice";
+} from "../utils/AdminSlice";
 
 interface User {
   email: string;
